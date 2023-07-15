@@ -12,10 +12,23 @@ This repository contains an implementation of the Proximal Policy Optimization (
 
 ## Installation
 
-1. Clone the repository:
+Clone the repository:
 
    ```shell
    git clone https://github.com/christianadebambo/car-racing-pytorch-RL.git
    ```
 
-2. Install
+## Usage
+
+1. Set up Visdom server:
+
+   Before training with visualization, start a Visdom server by running the following command:
+
+   ```shell
+   python -m visdom.server
+   ```
+
+2. Training and Testing
+
+To train the agent, run ```python train.py --render --vis``` or ```python train.py --render``` without visdom. 
+To test, run ```python test.py --render```.
