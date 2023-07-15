@@ -31,4 +31,5 @@ Clone the repository:
 2. Training and Testing:
 
 To train the agent, run ```python train.py --render --vis``` or ```python train.py --render``` without visdom. 
+
 To test, run ```python test.py --render```.
