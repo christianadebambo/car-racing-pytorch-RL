@@ -4,7 +4,7 @@ This repository contains an implementation of the Proximal Policy Optimization (
 
 ## Requirements
 
-- Python 3.x
+- Python 3+
 - PyTorch
 - NumPy
 - Gym
@@ -15,4 +15,7 @@ This repository contains an implementation of the Proximal Policy Optimization (
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/ppo-car-racing.git
+   git clone https://github.com/christianadebambo/car-racing-pytorch-RL.git
+   ```
+
+2. Install
