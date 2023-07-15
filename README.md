@@ -22,7 +22,7 @@ Clone the repository:
 
 1. Set up Visdom server:
 
-   Before training with visualization, start a Visdom server by running the following command:
+Before training with visualization, start a Visdom server by running the following command:
 
    ```shell
    python -m visdom.server
