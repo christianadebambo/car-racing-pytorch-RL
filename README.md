@@ -10,6 +10,15 @@ This repository contains an implementation of the Proximal Policy Optimization (
 - Gym
 - Argparse
 
+## Project Structure
+
+The repository consists of the following files:
+
+- `train.py`: The script for training the PPO agent on the CarRacing-v0 environment.
+- `test.py`: The script for testing the trained agent on the CarRacing-v0 environment.
+- `utils.py`: Utility module containing a class for visualization using Visdom.
+- `param/ppo_net_params.pkl`: Saved model parameters for the trained PPO agent.
+
 ## Installation
 
 Clone the repository:
